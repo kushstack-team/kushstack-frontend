@@ -1,0 +1,214 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "work": "Work",
+    "process": "Process",
+    "team": "Team",
+    "contact": "Contact",
+    "start_project": "Start a Project"
+  },
+  "hero": {
+    "pill": "Accepting new projects · 50+ clients served",
+    "title_1": "Building Digital",
+    "title_2": "Products That",
+    "title_3_gradient": "Move Businesses",
+    "title_4": "Forward.",
+    "subtitle": "We design and engineer custom web apps, mobile products, and AI systems for businesses that demand precision, speed, and lasting results.",
+    "cta_primary": "Start a Project",
+    "cta_secondary": "View Our Work",
+    "trusted": "Trusted by",
+    "clients": "50+ clients",
+    "worldwide": "worldwide"
+  },
+  "footer": {
+    "description": "We design and engineer custom web apps, mobile products, and AI systems for businesses that demand precision, speed, and lasting results.",
+    "services_title": "Services",
+    "company_title": "Company",
+    "rights": "KushStack. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "form": {
+    "label": "Inquiry Form",
+    "title": "Let's build something exceptional.",
+    "step": "Step",
+    "of": "of",
+    "complete": "Complete",
+    "step1_title": "What are you looking to build?",
+    "step2_title": "Tell us about you",
+    "step3_title": "Project Goals & Description",
+    "step4_title": "Logistics & Features",
+    "name": "Full Name *",
+    "email": "Email Address *",
+    "company": "Company Name",
+    "role": "Your Role",
+    "goals": "What is the primary goal of this project?",
+    "goals_placeholder": "Tell us about the problem you are trying to solve...",
+    "existing_website": "Existing Website / Reference Links",
+    "budget": "Estimated Budget",
+    "timeline": "Target Timeline",
+    "features": "Required Features",
+    "back": "Back",
+    "next": "Next Step",
+    "submit": "Submit Inquiry"
+  },
+  "services": {
+    "label": "What We Do",
+    "title_1": "Full-Spectrum",
+    "title_2": "Engineering Services",
+    "subtitle": "From concept to production — design, engineering, and infrastructure handled as one.",
+    "items": {
+      "web": {
+        "label": "Custom Web Applications",
+        "desc": "Bespoke web platforms engineered for scale, performance, and long-term maintainability."
+      },
+      "mobile": {
+        "label": "Mobile App Development",
+        "desc": "Native and cross-platform apps that users open every day — and love doing so."
+      },
+      "ai": {
+        "label": "AI Solutions",
+        "desc": "Intelligent systems that automate decisions and surface competitive insight at scale."
+      },
+      "design": {
+        "label": "UI/UX Design",
+        "desc": "Interfaces that feel inevitable — beautiful by design, intuitive by default."
+      },
+      "saas": {
+        "label": "SaaS Development",
+        "desc": "Multi-tenant platforms built to grow from first customer to enterprise deployment."
+      },
+      "automation": {
+        "label": "Business Automation",
+        "desc": "Workflow intelligence that removes friction and unlocks team capacity."
+      },
+      "api": {
+        "label": "APIs & Integrations",
+        "desc": "Seamless, reliable connections between your tools, data sources, and systems."
+      },
+      "cloud": {
+        "label": "Cloud Solutions",
+        "desc": "Infrastructure that scales with your ambition — never against it."
+      }
+    }
+  },
+  "process": {
+    "label": "How We Work",
+    "title_1": "A Process Built for",
+    "title_2": "Predictable Outcomes",
+    "items": {
+      "step1": {
+        "title": "Discovery",
+        "desc": "We immerse in your business context, goals, and constraints before writing a single line of code."
+      },
+      "step2": {
+        "title": "Architecture",
+        "desc": "System design and UX flows that solve the right problems — elegantly and durably."
+      },
+      "step3": {
+        "title": "Build",
+        "desc": "Agile two-week sprints with weekly demos. Real, working software — not status updates."
+      },
+      "step4": {
+        "title": "Launch & Scale",
+        "desc": "Deployment, monitoring, and a post-launch partnership that keeps your product ahead."
+      }
+    }
+  },
+  "stats": {
+    "projects": {
+      "value": "150+",
+      "label": "Projects Delivered"
+    },
+    "satisfaction": {
+      "value": "98%",
+      "label": "Client Satisfaction"
+    },
+    "global": {
+      "value": "50+",
+      "label": "Global Clients"
+    },
+    "experience": {
+      "value": "6yrs",
+      "label": "Industry Experience"
+    }
+  },
+  "projects": {
+    "label": "Selected Work",
+    "title": "Work that speaks for itself.",
+    "subtitle": "We don't just build software. We engineer category-defining products that drive measurable business outcomes.",
+    "read_case_study": "Read Case Study",
+    "data": {
+      "finova-analytics": {
+        "tag": "Fintech · SaaS",
+        "title": "Finova Analytics Platform",
+        "desc": "Real-time financial analytics serving 12,000+ enterprise users across 18 countries, with sub-200ms query response times and a 99.98% uptime SLA.",
+        "metric": "12K+ active users"
+      },
+      "shipfast-network": {
+        "tag": "Logistics · Mobile",
+        "title": "ShipFast Driver Network",
+        "desc": "Cross-platform mobile app that reduced dispatch times by 43% across a logistics network operating across 6 regional markets in real-time.",
+        "metric": "43% faster dispatch"
+      },
+      "loyaltygrid-intelligence": {
+        "tag": "AI · Automation",
+        "title": "LoyaltyGrid Intelligence",
+        "desc": "AI-powered churn prediction engine that automatically personalizes retention campaigns — reducing churn by 31% in its first year of deployment.",
+        "metric": "31% churn reduction"
+      }
+    }
+  },
+  "team": {
+    "label": "The People",
+    "title": "Engineered by experts.",
+    "subtitle": "Our team consists of senior engineers, product designers, and systems architects who treat every project as their own.",
+    "leadership": "Leadership",
+    "members": "Team Members",
+    "view_profile": "View Profile",
+    "data": {
+      "alex-turner": {
+        "position": "Founder & Technical Director",
+        "bio": "Alex brings 12+ years of enterprise architecture experience. He previously led engineering at top tier SaaS companies before founding KushStack to redefine agency quality."
+      },
+      "sarah-chen": {
+        "position": "Head of Design",
+        "bio": "Sarah is obsessed with pixel-perfection and intuitive UX. Her design systems have been used by millions of users globally."
+      },
+      "michael-okeke": {
+        "position": "Lead Frontend Engineer",
+        "bio": "Michael specializes in high-performance web applications and fluid animations. He ensures every interaction feels native and premium."
+      },
+      "emma-watson": {
+        "position": "AI Engineer",
+        "bio": "Building intelligent automated systems and integrating LLMs for next-gen products."
+      },
+      "david-kim": {
+        "position": "Backend Engineer",
+        "bio": "Scalable APIs and robust database architecture are David's bread and butter."
+      }
+    }
+  },
+  "testimonials": {
+    "label": "Client Feedback",
+    "title": "Trusted by Innovators",
+    "data": {
+      "t1": {
+        "quote": "KushStack delivered a product that exceeded every specification we gave them. The engineering and design quality was extraordinary — unlike any agency experience I have had before.",
+        "name": "Marcus Chen",
+        "role": "CEO, Finova Analytics"
+      },
+      "t2": {
+        "quote": "Working with KushStack felt like having a world-class product team in-house. They understood our users better than most of our own internal team — and they moved remarkably fast.",
+        "name": "Priya Nair",
+        "role": "CPO, LoyaltyGrid"
+      },
+      "t3": {
+        "quote": "Our platform went from concept to 10,000 active users in under six months. The quality, speed, and communication were unlike anything I had experienced from an agency before.",
+        "name": "James Okonkwo",
+        "role": "Founder, ShipFast Logistics"
+      }
+    }
+  }
+}

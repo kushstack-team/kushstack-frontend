@@ -1,0 +1,47 @@
+:root {
+  --font-size: 16px;
+  --font-display: 'Bricolage Grotesque', sans-serif;
+  --font-body: 'Instrument Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --background: #f7f8fc;
+  --foreground: #0c0d14;
+  --card: #ffffff;
+  --card-foreground: #0c0d14;
+  --popover: #ffffff;
+  --popover-foreground: #0c0d14;
+  
+  --primary: #1478f5;
+  --primary-foreground: #ffffff;
+  --secondary: #edf0f8;
+  --secondary-foreground: #3a3a55;
+  --muted: #edf0f8;
+  --muted-foreground: #6b6c88;
+  --accent: #1478f5;
+  --accent-foreground: #ffffff;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  
+  --border: rgba(0, 0, 20, 0.08);
+  --input: rgba(0, 0, 20, 0.05);
+  --input-background: rgba(0, 0, 20, 0.04);
+  --switch-background: rgba(0, 0, 20, 0.12);
+  
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --ring: #1478f5;
+  --radius: 0.5rem;
+  --radius-lg: 1rem;
+  --radius-full: 9999px;
+
+  /* Brand Colors */
+  --brand-blue: #1478f5;
+  --brand-blue-dark: #0d5fd4;
+  --brand-blue-light: #e8f1fe;
+  --brand-blue-mid: #3b8ff7;
+  --brand-nav-dark: #0c1226;
+  --brand-footer-dark: #080e1c;
+}
