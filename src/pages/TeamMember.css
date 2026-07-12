@@ -113,10 +113,18 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 160px;
-  height: 160px;
+  width: clamp(180px, 26vw, 260px);
+  height: clamp(180px, 26vw, 260px);
   border-radius: 50%;
   font-size: 3rem;
+}
+
+.team-member-avatar-image {
+  width: clamp(180px, 26vw, 260px);
+  height: clamp(180px, 26vw, 260px);
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
 }
 
 .team-member-connect-box {
@@ -172,13 +180,19 @@
   margin-bottom: 0.5rem;
   color: var(--foreground);
   font-family: var(--font-display);
-  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-size: clamp(1.5rem, 2vw, 2rem);
   line-height: 1.1;
 }
 
 .team-member-position {
   font-size: 1.25rem;
   font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.team-member-professional-title {
+  color: var(--muted-foreground);
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 

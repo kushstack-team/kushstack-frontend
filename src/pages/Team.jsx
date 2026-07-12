@@ -7,48 +7,56 @@ import "./Team.css";
 
 const Linkedin = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>;
 const Github = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>;
-const Twitter = ({ className }) => <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={className}><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>;
 
-export const getTeamMembers = (t) => [
+export const getTeamMembers = () => [
   {
-    id: "alex-turner",
-    name: "Alex Turner",
-    position: t('team.data.alex-turner.position'),
+    id: "mustafa-khamis",
+    name: "Mustafa Khamis",
+    position: "Founder & Technology Lead",
+    professionalTitle: "Full-Stack Software Engineer",
     role: "leadership",
-    bio: t('team.data.alex-turner.bio'),
-    skills: ["System Architecture", "Cloud Infrastructure", "Engineering Leadership"],
-    technologies: ["Node.js", "AWS", "TypeScript", "Go"],
-    socials: { linkedin: "#", github: "#", twitter: "#" },
+    bio: "Mustafa is the Founder and Technology Lead of KushStack Team. He specializes in designing and building modern digital products from concept to deployment, combining expertise in frontend, backend, mobile development, databases, and cloud technologies. Passionate about scalable software architecture, clean code, exceptional user experiences, and solving real business problems through technology.",
+    skills: ["Scalable Software Architecture", "Modern Web & Mobile Delivery", "Product Strategy & Engineering"],
+    technologies: ["React", "Node.js", "Flutter", "PostgreSQL", "AWS"],
+    socials: { linkedin: "https://www.linkedin.com/", github: "https://github.com/" },
+    image: "/images/leadership/mustafa.png",
     imageColor: "#1478f5",
   },
   {
-    id: "sarah-chen",
-    name: "Sarah Chen",
-    position: t('team.data.sarah-chen.position'),
+    id: "mohamed-yaser",
+    name: "Mohamed Yaser",
+    position: "Social Media Director",
+    professionalTitle: "Backend Developer & Digital Content Strategist",
     role: "leadership",
-    bio: t('team.data.sarah-chen.bio'),
-    skills: ["UI/UX Design", "Design Systems", "User Research"],
-    technologies: ["Figma", "Framer", "CSS/SCSS", "React"],
-    socials: { linkedin: "#", twitter: "#" },
+    bio: "Mohamed leads KushStack's digital presence by managing content strategy, social media growth, and brand communication while contributing to backend development. He combines technical knowledge with creative storytelling to help showcase KushStack's expertise and connect with businesses through engaging content.",
+    skills: ["Digital Brand Strategy", "Social Media Growth", "Backend Development"],
+    technologies: ["Node.js", "PostgreSQL", "Content Strategy", "Automation"],
+    socials: { linkedin: "https://www.linkedin.com/", github: "https://github.com/" },
+    image: "/images/leadership/mohamed-yaser.png",
     imageColor: "#7c3aed",
   },
   {
-    id: "michael-okeke",
-    name: "Michael Okeke",
-    position: t('team.data.michael-okeke.position'),
+    id: "mohammed-salahelden",
+    name: "Mohammed Salahelden",
+    position: "Senior Application Developer",
+    professionalTitle: "Senior Application Developer | Backend Engineer",
     role: "leadership",
-    bio: t('team.data.michael-okeke.bio'),
-    skills: ["Frontend Architecture", "Performance Optimization", "Web Animations"],
-    technologies: ["React", "Next.js", "WebGL", "Motion"],
-    socials: { linkedin: "#", github: "#" },
+    bio: "Software developer passionate about building scalable mobile experiences with Flutter and crafting robust backend architectures with Node.js and PostgreSQL. Dedicated to writing clean, maintainable code and delivering efficient, scalable software solutions for modern businesses.",
+    skills: ["Mobile App Development", "Scalable Backend Architecture", "Clean, Maintainable Code"],
+    technologies: ["Flutter", "Node.js", "PostgreSQL", "Docker"],
+    socials: {
+      linkedin: "https://www.linkedin.com/in/mohammed-salahelden-hassan-647b6128a",
+      github: "https://github.com/MohammedSalaheldenHassan"
+    },
+    image: "/images/leadership/mohammed-salahelden.png",
     imageColor: "#0891b2",
   },
   {
     id: "emma-watson",
     name: "Emma Watson",
-    position: t('team.data.emma-watson.position'),
+    position: "AI Engineer",
     role: "member",
-    bio: t('team.data.emma-watson.bio'),
+    bio: "Emma builds AI-driven experiences with a focus on practical product outcomes and thoughtful user experiences.",
     skills: ["Machine Learning", "Data Engineering"],
     technologies: ["Python", "PyTorch", "OpenAI API"],
     socials: { github: "#", linkedin: "#" },
@@ -57,9 +65,9 @@ export const getTeamMembers = (t) => [
   {
     id: "david-kim",
     name: "David Kim",
-    position: t('team.data.david-kim.position'),
+    position: "Platform Engineer",
     role: "member",
-    bio: t('team.data.david-kim.bio'),
+    bio: "David helps teams ship resilient backend infrastructure and dependable APIs for fast-moving product teams.",
     skills: ["API Design", "Database Modeling"],
     technologies: ["PostgreSQL", "Redis", "Docker"],
     socials: { github: "#", linkedin: "#" },
@@ -69,9 +77,9 @@ export const getTeamMembers = (t) => [
 
 export default function Team() {
   const { t } = useTranslation();
-  const teamMembersData = getTeamMembers(t);
-  const leadership = teamMembersData.filter(m => m.role === "leadership");
-  const members = teamMembersData.filter(m => m.role === "member");
+  const teamMembersData = getTeamMembers();
+  const leadership = teamMembersData.filter((m) => m.role === "leadership");
+  const members = teamMembersData.filter((m) => m.role === "member");
 
   return (
     <main className="team-main">
@@ -112,7 +120,11 @@ export default function Team() {
                         boxShadow: `0 10px 30px ${person.imageColor}40`
                       }}
                     >
-                      {person.name.split(" ").map(n => n[0]).join("")}
+                      {person.image ? (
+                        <img src={person.image} alt={person.name} className="team-card-avatar-image" />
+                      ) : (
+                        person.name.split(" ").map((n) => n[0]).join("")
+                      )}
                     </div>
                   </div>
 
@@ -128,9 +140,16 @@ export default function Team() {
 
                     <div className="team-card-footer">
                       <div className="team-card-socials">
-                        {person.socials.linkedin && <Linkedin className="team-social-icon" />}
-                        {person.socials.github && <Github className="team-social-icon" />}
-                        {person.socials.twitter && <Twitter className="team-social-icon" />}
+                        {person.socials.linkedin && (
+                          <a href={person.socials.linkedin} className="team-card-social-link" target="_blank" rel="noreferrer">
+                            <Linkedin className="team-social-icon" />
+                          </a>
+                        )}
+                        {person.socials.github && (
+                          <a href={person.socials.github} className="team-card-social-link" target="_blank" rel="noreferrer">
+                            <Github className="team-social-icon" />
+                          </a>
+                        )}
                       </div>
                       <div className="team-view-profile">
                         {t('team.view_profile')} <ArrowUpRight className="team-view-profile-icon rtl-arrow" />
