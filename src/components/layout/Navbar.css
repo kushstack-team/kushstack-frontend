@@ -47,13 +47,13 @@
   height: 36px;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+
 }
 
 .navbar-logo-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  borderradius: 50%;
 }
 
 .navbar-logo-text {
