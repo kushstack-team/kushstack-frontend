@@ -18,8 +18,8 @@ export const getTeamMembers = () => [
     bio: "Mustafa is the Founder and Technology Lead of KushStack Team. He specializes in designing and building modern digital products from concept to deployment, combining expertise in frontend, backend, mobile development, databases, and cloud technologies. Passionate about scalable software architecture, clean code, exceptional user experiences, and solving real business problems through technology.",
     skills: ["Scalable Software Architecture", "Modern Web & Mobile Delivery", "Product Strategy & Engineering"],
     technologies: ["React", "Node.js", "Flutter", "PostgreSQL", "AWS"],
-    socials: { linkedin: "https://www.linkedin.com/", github: "https://github.com/" },
-    image: "/images/leadership/mustafa.png",
+    socials: { linkedin: "https://www.linkedin.com/in/mustafa-khamis/", github: "https://github.com/mustafa-khamis" },
+    image: "/images/leadership/mustafakh.png",
     imageColor: "#1478f5",
   },
   {
@@ -31,8 +31,8 @@ export const getTeamMembers = () => [
     bio: "Mohamed leads KushStack's digital presence by managing content strategy, social media growth, and brand communication while contributing to backend development. He combines technical knowledge with creative storytelling to help showcase KushStack's expertise and connect with businesses through engaging content.",
     skills: ["Digital Brand Strategy", "Social Media Growth", "Backend Development"],
     technologies: ["Node.js", "PostgreSQL", "Content Strategy", "Automation"],
-    socials: { linkedin: "https://www.linkedin.com/", github: "https://github.com/" },
-    image: "/images/leadership/mohamed-yaser.png",
+    socials: { linkedin: "https://www.linkedin.com/in/mohamed-yaser/", github: "https://github.com/mohamed-yaser/" },
+    image: "/images/leadership/wdyaser.jpeg",
     imageColor: "#7c3aed",
   },
   {
@@ -48,7 +48,7 @@ export const getTeamMembers = () => [
       linkedin: "https://www.linkedin.com/in/mohammed-salahelden-hassan-647b6128a",
       github: "https://github.com/MohammedSalaheldenHassan"
     },
-    image: "/images/leadership/mohammed-salahelden.png",
+    image: "/images/leadership/mohamedsalah.jpg",
     imageColor: "#0891b2",
   },
   {
